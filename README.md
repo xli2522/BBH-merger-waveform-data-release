@@ -6,9 +6,9 @@
 
 - **simulated** noisy BBH merger GW signals for neural network training
 - and **detector waveforms** from LIGO’s event catalogues.
-    - [Hanford Detector](https://en.wikipedia.org/wiki/LIGO#Observatories) Label: H1
-    - [Livingston Detector](https://en.wikipedia.org/wiki/LIGO#Observatories) Label: L1
-    - [Virgo Detector](https://en.wikipedia.org/wiki/Virgo_interferometer) Label: V1
+    - [Hanford Detector](https://en.wikipedia.org/wiki/LIGO#Observatories) Label: H
+    - [Livingston Detector](https://en.wikipedia.org/wiki/LIGO#Observatories) Label: L
+    - [Virgo Detector](https://en.wikipedia.org/wiki/Virgo_interferometer) Label: V
 
 The **goal** of this repository is to provide everyone (and myself) with **easy-to-access BBH merger GW data** since waveform simulation and LIGO merger event catalogue access do require special software packages and certain operating systems.
 
@@ -48,6 +48,7 @@ The **goal** of this repository is to provide everyone (and myself) with **easy-
     Sampling Frequency: 4096 Hz
     
 - Event Access Log (What’s not included in this repository)
+    NOTE: Detector label error, will fix soon
     
     ```html
     past_gw_detection_catalogue.py
