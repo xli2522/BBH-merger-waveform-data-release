@@ -2,13 +2,15 @@
 
 ## [Credits: [PyCBC](https://pycbc.org/pycbc/latest/html/index.html), [LAL](https://lscsoft.docs.ligo.org/lalsuite/), [LIGO Scientific Collaboration](https://www.ligo.org/), [Virgo Scientific Collaboration](http://public.virgo-gw.eu/the-virgo-collaboration/)]
 
+Picture (Virgo Detector): [http://public.virgo-gw.eu/wp-content/uploads/2019/12/AdVirgo-300dpi-scaled.jpg](http://public.virgo-gw.eu/wp-content/uploads/2019/12/AdVirgo-300dpi-scaled.jpg)
+
 ### This repository contains
 
 - **simulated** noisy BBH merger GW signals for neural network training
 - and **detector waveforms** from LIGO’s event catalogues.
-    - [Hanford Detector](https://en.wikipedia.org/wiki/LIGO#Observatories) Label: H1
-    - [Livingston Detector](https://en.wikipedia.org/wiki/LIGO#Observatories) Label: L1
-    - [Virgo Detector](https://en.wikipedia.org/wiki/Virgo_interferometer) Label: V1
+    - [Hanford Detector](https://en.wikipedia.org/wiki/LIGO#Observatories) Label: H
+    - [Livingston Detector](https://en.wikipedia.org/wiki/LIGO#Observatories) Label: L
+    - [Virgo Detector](https://en.wikipedia.org/wiki/Virgo_interferometer) Label: V
 
 The **goal** of this repository is to provide everyone (and myself) with **easy-to-access BBH merger GW data** since waveform simulation and LIGO merger event catalogue access do require special software packages and certain operating systems.
 
@@ -23,6 +25,8 @@ The **goal** of this repository is to provide everyone (and myself) with **easy-
     Sampling Frequency: 2048 Hz
     
     Duration: 6 s
+    
+    File Type: **CSV** ([GitHub](https://github.com/xli2522/BBH-merger-waveform-data-release)) and **Pickle** ([Harvard DV](https://doi.org/10.7910/DVN/GEVGRO); in **Pandas dataframe**)
     
     Individual Mass Range: 1 - 100 Solar Masses
     
@@ -43,155 +47,72 @@ The **goal** of this repository is to provide everyone (and myself) with **easy-
 
 - Data Specifications:
     
-    Duration: ~32 s
+    Duration: 32 s (longer durations available; create a Github request)
     
-    Sampling Frequency: 4096 Hz
+    Sampling Frequency: 4096 Hz and 16384 Hz
     
-- Event Access Log (What’s not included in this repository)
+    File Type: **GWF**, **HDF5**, and **Compressed TXT** (TXT.GZ) for each event
+    
+- Event Access Log
+    
+    NOTE: detector label error, will fix soon
+    
+    NOTE: detector label fixed [220911]
     
     ```html
-    #############################
     past_gw_detection_catalogue.py
-	        xli2522@github
     ############## log ##############
+    	xli2522@github.com
     #############################
-    Access time: 2022-09-03 21:11:34.146502
+    Access time: 2022-09-11 21:29:35.971644
     Catalogue: GWTC-1-confident
-    11 events.Error... Skipping...GW150914-v3
-    Error... Skipping...GW151012-v3
-    Error... Skipping...GW151226-v2
-    Error... Skipping...GW170104-v2
-    Error... Skipping...GW170608-v3
-    Error... Skipping...GW170823-v1
-    Event accessed: 5
-    GWTC-1-confident time: 4.164625883102417
+    11 events.Event accessed: 11
+    GWTC-1-confident time: 399.68413186073303
     #############################
-    Access time: 2022-09-03 21:11:38.312371
+    Access time: 2022-09-11 21:36:15.657745
     Catalogue: GWTC-1-marginal
-    14 events.Error... Skipping...151008-v1
-    Error... Skipping...151012.2-v1
-    Error... Skipping...151116-v1
-    Error... Skipping...161202-v1
-    Error... Skipping...161217-v1
-    Error... Skipping...170208-v1
-    Error... Skipping...170219-v1
-    Error... Skipping...170405-v1
-    Error... Skipping...170412-v1
-    Error... Skipping...170423-v1
-    Error... Skipping...170616-v1
-    Error... Skipping...170630-v1
-    Error... Skipping...170705-v1
-    Error... Skipping...170720-v1
-    Event accessed: 0
-    GWTC-1-marginal time: 1.2506000995635986
+    14 events.Event accessed: 14
+    GWTC-1-marginal time: 356.59337401390076
     #############################
-    Access time: 2022-09-03 21:11:39.563754
+    Access time: 2022-09-11 21:42:12.252461
     Catalogue: Initial_LIGO_Virgo
-    2 events.Error... Skipping...GRB051103-v1
-    Error... Skipping...blind_injection-v1
-    Event accessed: 0
-    Initial_LIGO_Virgo time: 0.0004360675811767578
+    2 events.Event accessed: 2
+    Initial_LIGO_Virgo time: 2.1457672119140625e-06
     #############################
-    Access time: 2022-09-03 21:11:39.565012
+    Access time: 2022-09-11 21:42:12.253374
     Catalogue: O1_O2-Preliminary
-    12 events.Error... Skipping...GW150914-v1
-    Error... Skipping...GW150914-v2
-    Error... Skipping...GW151012-v1
-    Error... Skipping...GW151012-v2
-    Error... Skipping...GW151226-v1
-    Error... Skipping...GW170104-v1
-    Error... Skipping...GW170608-v1
-    Error... Skipping...GW170608-v2
-    Error... Skipping...GW170814-v1
-    Error... Skipping...GW170814-v2
-    Error... Skipping...GW170817-v1
-    Error... Skipping...GW170817-v2
-    Event accessed: 0
-    O1_O2-Preliminary time: 0.013202905654907227
+    12 events.Event accessed: 12
+    O1_O2-Preliminary time: 303.4168529510498
     #############################
-    Access time: 2022-09-03 21:11:39.579094
+    Access time: 2022-09-11 21:47:15.671878
     Catalogue: O3_Discovery_Papers
-    8 events.Error... Skipping...GW190425-v1
-    Error... Skipping...GW200105-v1
-    Event accessed: 6
-    O3_Discovery_Papers time: 4.199512004852295
+    8 events.Event accessed: 8
+    O3_Discovery_Papers time: 293.9747130870819
     #############################
-    Access time: 2022-09-03 21:11:43.781673
+    Access time: 2022-09-11 21:52:09.650279
     Catalogue: GWTC-2
-    39 events.Error... Skipping...GW190421_213856-v1
-    Error... Skipping...GW190424_180648-v1
-    Error... Skipping...GW190425-v2
-    Error... Skipping...GW190514_065416-v1
-    Error... Skipping...GW190521_074359-v1
-    Error... Skipping...GW190527_092055-v1
-    Error... Skipping...GW190620_030421-v1
-    Error... Skipping...GW190630_185205-v1
-    Error... Skipping...GW190707_093326-v1
-    Error... Skipping...GW190708_232457-v1
-    Error... Skipping...GW190719_215514-v1
-    Error... Skipping...GW190731_140936-v1
-    Error... Skipping...GW190909_114149-v1
-    Error... Skipping...GW190910_112807-v1
-    Error... Skipping...GW190930_133541-v1
-    Event accessed: 24
-    GWTC-2 time: 17.660564184188843
+    39 events.Event accessed: 39
+    GWTC-2 time: 1298.7019248008728
     #############################
-    Access time: 2022-09-03 21:12:01.445160
+    Access time: 2022-09-11 22:13:48.356191
     Catalogue: GWTC-2.1-confident
-    44 events.Error... Skipping...GW190403_051519-v1
-    Error... Skipping...GW190413_052954-v2
-    Error... Skipping...GW190421_213856-v2
-    Error... Skipping...GW190425_081805-v3
-    Error... Skipping...GW190426_190642-v1
-    Error... Skipping...GW190514_065416-v2
-    Error... Skipping...GW190521_074359-v2
-    Error... Skipping...GW190527_092055-v2
-    Error... Skipping...GW190620_030421-v2
-    Error... Skipping...GW190630_185205-v2
-    Error... Skipping...GW190707_093326-v2
-    Error... Skipping...GW190708_232457-v2
-    Error... Skipping...GW190719_215514-v2
-    Error... Skipping...GW190731_140936-v2
-    Error... Skipping...GW190805_211137-v1
-    Error... Skipping...GW190910_112807-v2
-    Error... Skipping...GW190925_232845-v1
-    Error... Skipping...GW190930_133541-v2
-    Event accessed: 26
-    GWTC-2.1-confident time: 19.13411784172058
+    44 events.Event accessed: 44
+    GWTC-2.1-confident time: 1486.8560099601746
     #############################
-    Access time: 2022-09-03 21:12:20.580502
+    Access time: 2022-09-11 22:38:35.214129
     Catalogue: GWTC-2.1-marginal
     2 events.Event accessed: 2
-    GWTC-2.1-marginal time: 1.3868541717529297
+    GWTC-2.1-marginal time: 91.25677800178528
     #############################
-    Access time: 2022-09-03 21:12:21.971501
+    Access time: 2022-09-11 22:40:06.474245
     Catalogue: GWTC-3-confident
-    35 events.Error... Skipping...GW191103_012549-v1
-    Error... Skipping...GW191109_010717-v1
-    Error... Skipping...GW191126_115259-v1
-    Error... Skipping...GW191129_134029-v1
-    Error... Skipping...GW191204_110529-v1
-    Error... Skipping...GW191204_171526-v1
-    Error... Skipping...GW191216_213338-v1
-    Error... Skipping...GW191222_033537-v1
-    Error... Skipping...GW200112_155838-v1
-    Error... Skipping...GW200128_022011-v1
-    Error... Skipping...GW200220_124850-v1
-    Error... Skipping...GW200225_060421-v1
-    Error... Skipping...GW200302_015811-v1
-    Error... Skipping...GW200306_093714-v1
-    Event accessed: 21
-    GWTC-3-confident time: 15.557221174240112
+    35 events.Event accessed: 35
+    GWTC-3-confident time: 1294.0056397914886
     #############################
-    Access time: 2022-09-03 21:12:37.530404
+    Access time: 2022-09-11 23:01:40.482119
     Catalogue: GWTC-3-marginal
-    7 events.Error... Skipping...191118_212859-v1
-    Error... Skipping...200121_031748-v1
-    Error... Skipping...200214_224526-v2
-    Error... Skipping...200311_103121-v1
-    Error... Skipping...GW200105_162426-v2
-    Event accessed: 2
-    GWTC-3-marginal time: 1.6110539436340332
+    7 events.Event accessed: 7
+    GWTC-3-marginal time: 335.6260190010071
     ```
     
 
@@ -203,8 +124,10 @@ The **goal** of this repository is to provide everyone (and myself) with **easy-
     **URL convention:** ‘`https://raw.githubusercontent.com/xli2522/BBH-merger-waveform-data-release/blob/main/GWTC-2/csv_data/GW190408_181802-v1-1238782700.3-L1.csv`’
     
     ```html
-    **Convention**:  /main/catalogue-name/csv_data/event_name        -GPStime     -detector.csv
-    **Example**:     /main/GWTC-2        /csv_data/GW190408_181802-v1-1238782700.3-L1      .csv
+    **Convention 1**:  /main/catalogue-name/csv_data/event_name        -GPStime     -detector.csv
+    **Example 1**:     /main/GWTC-2        /csv_data/GW190408_181802-v1-1238782700.3-L1      .csv
+    **Convention 2**:  /main/catalogue-name  /event_name /file_name
+    **Example 2**:     /main/GWTC-1-confident/GW150914-v3/H-H1_GWOSC_16KHZ_R1-1126259447-32.txt.gz
     ```
     
 
