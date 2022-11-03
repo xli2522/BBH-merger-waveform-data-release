@@ -12,7 +12,10 @@ Picture (Virgo Detector): [http://public.virgo-gw.eu/wp-content/uploads/2019/12/
     - [Livingston Detector](https://en.wikipedia.org/wiki/LIGO#Observatories) Label: L
     - [Virgo Detector](https://en.wikipedia.org/wiki/Virgo_interferometer) Label: V
 
-The **goal** of this repository is to provide everyone (and myself) with **easy-to-access BBH merger GW data** since waveform simulation and LIGO merger event catalogue access do require special software packages and certain operating systems.
+***Goals of this repository:***
+
+- provide **datasets** that were used in our projects so anyone can try to reproduce our results.
+- provide **easy-to-access BBH merger GW data** since waveform simulation and LIGO merger event catalogue access do require special software packages and certain operating systems.
 
 ### Simulated Signal
 
