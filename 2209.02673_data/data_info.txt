@@ -11,3 +11,5 @@ for each distance in Mpc
     Final dataframe size in memory: 167.003264Mb.
     Generated 1698 validation times series.
     Final dataframe size in memory: 167.003264Mb.
+    
+    PKL Files see: https://doi.org/10.7910/DVN/GEVGRO, Harvard Dataverse, V3
