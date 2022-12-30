@@ -139,3 +139,5 @@ Picture (Virgo Detector): [http://public.virgo-gw.eu/wp-content/uploads/2019/12/
 GPS Time Conversion: 
 
 [https://www.andrews.edu/~tzs/timeconv/timeconvert.php](https://www.andrews.edu/~tzs/timeconv/timeconvert.php)
+
+[https://www.ligo.org/science/Publication-O2BBHPop/index.php#:~:text=The%20BBH%20Mass%20Spectrum&text=The%20%22standard%22%20mass%20distribution%20is,probability%20decreases%20with%20increasing%20mass).](https://www.ligo.org/science/Publication-O2BBHPop/index.php#:~:text=The%20BBH%20Mass%20Spectrum&text=The%20%22standard%22%20mass%20distribution%20is,probability%20decreases%20with%20increasing%20mass).)
