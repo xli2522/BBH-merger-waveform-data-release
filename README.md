@@ -29,7 +29,7 @@ Picture (Virgo Detector): [http://public.virgo-gw.eu/wp-content/uploads/2019/12/
     
     Duration: 6 s
     
-    File Type: **CSV** ([GitHub](https://github.com/xli2522/BBH-merger-waveform-data-release)) and **Pickle** ([Harvard DV](https://doi.org/10.7910/DVN/GEVGRO); in **Pandas dataframe**)
+    File Type: **CSV** ([GitHub](https://github.com/xli2522/BBH-merger-waveform-data-release)) and **Pickle** ([Harvard DV]([https://doi.org/10.7910/DVN/GEVGRO](https://doi.org/10.7910/DVN/QFCBCL)); in **Pandas dataframe**)
     
     Individual Mass Range: 1 - 100 Solar Masses
     
