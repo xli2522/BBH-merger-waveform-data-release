@@ -30,7 +30,32 @@ Picture (Virgo Detector): [http://public.virgo-gw.eu/wp-content/uploads/2019/12/
     Duration: 6 s
     
     File Type: **CSV** ([GitHub](https://github.com/xli2522/BBH-merger-waveform-data-release)) and **Pickle** ([Harvard DV](https://doi.org/10.7910/DVN/QFCBCL)); in **Pandas dataframe**
-    
+
+    (Time Series pickle Pandas) Simulated noisy merger signal at 1200 Mpc: https://dataverse.harvard.edu/file.xhtml?fileId=6963225&version=2.0
+  
+    (Time Series pickle Pandas) Simulated noisy merger signal at 2000 Mpc: https://dataverse.harvard.edu/file.xhtml?fileId=6963226&version=2.0
+  
+    (Time Series pickle Pandas) Pure noise (generated using aLIGO characteristic frequency domain noise model):
+  
+    - Set 1: https://dataverse.harvard.edu/file.xhtml?fileId=6963228&version=2.0
+    - Set 2: https://dataverse.harvard.edu/file.xhtml?fileId=6963439&version=2.0
+  
+    (Spectrogram) JCTFT Spectrogram of the simulated noisy merger signal at 1200 Mpc: https://dataverse.harvard.edu/file.xhtml?fileId=6963207&version=2.0
+  
+    (Spectrogram) JCTFT Spectrogram of the simulated noisy merger signal at 2000 Mpc: https://dataverse.harvard.edu/file.xhtml?fileId=6963210&version=2.0
+  
+    (Spectrogram) QT Spectrogram of the simulated noisy merger signal at 1200 Mpc: https://dataverse.harvard.edu/file.xhtml?fileId=6963213&version=2.0
+  
+    (Spectrogram) QT Spectrogram of the simulated noisy merger signal at 2000 Mpc:  https://dataverse.harvard.edu/file.xhtml?fileId=6963218&version=2.0
+  
+    (Spectrogram) JCTFT Spectrogram of Noise
+    - Set 1: https://dataverse.harvard.edu/file.xhtml?fileId=6963211&version=2.0
+    - Set 2: https://dataverse.harvard.edu/file.xhtml?fileId=6963212&version=2.0
+  
+    (Spectrogram) QT Spectrogram of Noise
+    - Set 1: https://dataverse.harvard.edu/file.xhtml?fileId=6963219&version=2.0
+    - Set 2: https://dataverse.harvard.edu/file.xhtml?fileId=6963220&version=2.0
+  
     Individual Mass Range: 1 - 100 Solar Masses
     
     Merger Position (Random): 
